@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "PT Serif"
+}
+
+header {
+    background-image: url(../StoreFront/Images/headerBackg2.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    width: 90%;
+    height: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header {
+    text-shadow: 3px 3px 2px black;
+    font-family: "PT Serif";
+    font-weight: lighter;
+    padding-top: 0.3em;
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "PT Serif";
+}
+
+a:hover {
+    color: rgb(1, 102, 17)
+}
+
+.signInBar {
+    font-size: 18px;
+}
