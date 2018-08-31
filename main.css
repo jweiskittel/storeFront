@@ -1,7 +1,9 @@
 body {
     background-color: black;
+    font-family: "PT Serif";
     color: white;
-    font-family: "PT Serif"
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 header {
@@ -14,6 +16,7 @@ header {
     font-size: 60px;
     width: 90%;
     height: 4.5em;
+    line-height: 4.5em;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -23,19 +26,171 @@ header {
     text-shadow: 3px 3px 2px black;
     font-family: "PT Serif";
     font-weight: lighter;
-    padding-top: 0.3em;
-    }
+    margin: 0.13em;
+}
 
-a {
+.signInBar a {
     color: white;
     text-decoration: none;
     font-family: "PT Serif";
 }
 
-a:hover {
-    color: rgb(1, 102, 17)
-}
 
 .signInBar {
     font-size: 18px;
+    color: white;
+    margin-left: 14%;
+    height: 15px;
+}
+
+.searchBar {
+    float: right;
+    margin-top: 0.6%;
+    text-align: center;
+    height: 25px;
+    width: 200px;
+}
+
+.navBar {
+    background: black;
+    width: 70.3%;
+    margin: auto;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    padding: 3px 10px 3px 10px;
+    border: solid 2px white;
+    border-left: none;
+    border-right: none;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+a:hover {
+    color: rgb(1, 102, 17);
+}
+
+p {
+    margin: 0;
+}
+
+.typeBar {
+    margin: 5em auto auto auto;
+    display: block;
+    width: 70.3%;
+    background: black;
+    border: solid 2px white;
+    border-left: none;
+    border-right: none;
+    height: 45px;
+    line-height: 45px;
+    padding: 3px 10px 3px 10px;
+    font-size: 22px;
+}
+
+.seeAll {
+    float: right;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.seeAll:hover {
+    color: rgb(1, 102, 17)
+}
+
+.clubs {
+    background-image: url(./Images/grass.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 2px white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: block;
+    width: 71.4%;
+    height: 18em;
+    padding: 1em 0 1em 0;
+    text-align: center
+}
+
+.balls {
+    background-image: url(./Images/golfBalls2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 2px white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: block;
+    width: 71.4%;
+    height: 18em;
+    padding: 1em 0 1em 0;
+    text-align: center
+}
+
+.access {
+    background-image: url(./Images/tees.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 2px white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: block;
+    width: 71.4%;
+    height: 18em;
+    padding: 1em 0 1em 0;
+    text-align: center
+}
+
+.holder {
+    background: black;
+    border: solid 1px white;
+    width: 20em;
+    height: 18em;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.holder img {
+    width: 16em;
+    height: 12em;
+    margin: 1em;
+}
+
+.description p {
+    text-align: left;
+    width: 16em;
+    margin-left: 2.1em;
+}
+
+.footer {
+    margin: 5em auto auto auto;
+    display: block;
+    text-align: center;
+    height: 5em;
+}
+
+.footerText a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0.3em;
+}
+
+.footerText a:hover {
+    color: rgb(1, 102, 17)
+}
+
+.copyright {
+    padding-top: 2.5em;
 }
