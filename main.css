@@ -207,6 +207,10 @@ p {
     width: 100%;
     z-index: 1;
     border: solid 2px white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 0.1em;
 }
 
 .dropLinks2 {
@@ -215,7 +219,9 @@ p {
     width: 100%;
     background-color: black;
     z-index: 1;
-    border: solid 2px white;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    padding-left: 0.4em;
 }
 
 .dropLinks a, .dropLinks2 a {
