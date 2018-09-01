@@ -53,13 +53,13 @@ header {
 
 .navBar {
     background: black;
-    width: 70.3%;
+    width: 71.3%;
     margin: auto;
     display: block;
     height: 45px;
     line-height: 45px;
     font-size: 18px;
-    padding: 3px 10px 3px 10px;
+    padding: 3px 10px 3px 0px;
     border: solid 2px white;
     border-left: none;
     border-right: none;
@@ -68,7 +68,7 @@ header {
 .navBar a {
     color: white;
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 1.7em;
     font-size: 22px;
 }
 
@@ -83,7 +83,7 @@ p {
 .typeBar {
     margin: 5em auto auto auto;
     display: block;
-    width: 70.3%;
+    width: 70.7%;
     background: black;
     border: solid 2px white;
     border-left: none;
@@ -118,7 +118,7 @@ p {
     width: 71.4%;
     height: 18em;
     padding: 1em 0 1em 0;
-    text-align: center
+    text-align: center;
 }
 
 .balls {
@@ -193,4 +193,40 @@ p {
 
 .copyright {
     padding-top: 2.5em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropLinks {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    border: solid 2px white;
+}
+
+.dropLinks2 {
+    display: none;
+    position: absolute;
+    left: 20%;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    border: solid 2px white;
+}
+
+.dropLinks a, .dropLinks2 a {
+    padding-left: 0.3em;
+}
+
+.dropLinks a:hover, .dropLinks2 a:hover {
+    color: rgb(1, 70, 13);
+}
+
+.dropdown:hover .dropLinks, .clubsDrop:hover .dropLinks2 {
+    display: block;
 }
